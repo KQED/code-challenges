@@ -3,29 +3,29 @@ let someOddThing = ['one', 'two', 'baz']
 let someOtherThing = { type: '123abc' }
 
 const strangeFunc = () => {
-  someOtherThing &&
-    (someDoDad.includes(
-      'foo',
-    ) ? (
-       console.log('hello')
-      ) : someDoDad.includes(
-        'bar',
+    someOtherThing &&
+      (someDoDad.includes(
+        'foo',
       ) ? (
-          console.log('world')
+         console.log('hello')
         ) : someDoDad.includes(
-          'baz',
+          'bar',
         ) ? (
-            console.log('alice')
-          ) : someOtherThing.type == '123abc' ? (
-            console.log('bob')
-          ) : someOddThing.includes('foo') ||
-      someOddThing.includes('bar') ||
-      someOddThing.includes('baz') ? (
-              console.log('carol')
-            ) : (
-              console.log('This isn\'t working')
-            ))
-}
+            console.log('world')
+          ) : someDoDad.includes(
+            'baz',
+          ) ? (
+              console.log('alice')
+            ) : someOtherThing.type == '123abc' ? (
+              console.log('bob')
+            ) : someOddThing.includes('foo') ||
+        someOddThing.includes('bar') ||
+        someOddThing.includes('baz') ? (
+                console.log('carol')
+              ) : (
+                console.log('This isn\'t working')
+              ))
+  }
 
 strangeFunc()
 
