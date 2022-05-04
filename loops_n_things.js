@@ -15,7 +15,7 @@ let thing1 = [
     id: '123cfe',
     type: 'baz',
     colour: 'blue',
-    count: 123
+    cout: 123
   }
 ]
 

@@ -1,9 +1,9 @@
-let someDoDad = ['green', 'red', 'baz']
+let someDoDad = ['green', 'red', 'bar']
 let someOddThing = ['one', 'two', 'baz']
 let someOtherThing = { type: '123abc' }
 
 const strangeFunc = () => {
-    someOtherThing &&
+    someOddThing &&
       (someDoDad.includes(
         'foo',
       ) ? (
@@ -11,12 +11,13 @@ const strangeFunc = () => {
         ) : someDoDad.includes(
           'bar',
         ) ? (
+            return
             console.log('world')
           ) : someDoDad.includes(
             'baz',
           ) ? (
               console.log('alice')
-            ) : someOtherThing.type == '123abc' ? (
+        ) : someOtherThing.type == '123abc' ? (
               console.log('bob')
             ) : someOddThing.includes('foo') ||
         someOddThing.includes('bar') ||
