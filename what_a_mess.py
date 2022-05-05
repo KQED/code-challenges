@@ -1,4 +1,4 @@
-some_do_dad = ["green", "red", "baz"]
+some_do_dad = ["green", "red", "bar"]
 some_odd_thing = ["one", "two", "baz"]
 some_other_thing = { "type": "123abc" }
 
